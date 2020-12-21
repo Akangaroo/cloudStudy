@@ -1,0 +1,11 @@
+
+}
+java:S1128"[Remove this unused import 'com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand'.(şÌ—êşÿÿÿÿ8ÚæÆöç.
+h
+java:S1128"FRemove this unused import 'org.checkerframework.checker.units.qual.A'.(¿‚áñøÿÿÿÿ8š´©ôç.
+b
+java:S1128"@Remove this unused import 'cn.edu.springcloud.entities.Payment'.(­‰åòüÿÿÿÿ8ıÖ¨ôç.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰®²8ÿšªôç.
+~
+java:S1128"\Remove this unused import 'com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty'.(©Êıàıÿÿÿÿ8ÚæÆöç.
+j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¥˜÷8ÿšªôç.

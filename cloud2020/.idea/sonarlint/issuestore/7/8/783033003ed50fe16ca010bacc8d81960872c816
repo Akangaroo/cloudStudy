@@ -1,0 +1,11 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(¶ù—™8¯ÈÏöç.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Úè×8Ş™¦ôç.
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8¹÷ç.
+o	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ûşÿÿÿÿ8äâÅöç.
+c
+java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ş™¦ôç.
+o	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìšòéùÿÿÿÿ8´·÷ç.
+b	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ø€ˆÏ8´·÷ç.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô§å¾8Ş™¦ôç.

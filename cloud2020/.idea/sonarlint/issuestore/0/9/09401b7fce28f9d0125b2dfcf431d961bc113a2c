@@ -1,0 +1,12 @@
+
+L
+java:S3740C"/Provide the parametrized type for this generic.(„Œ“8›Õ¿Ýç.
+T	java:S106T"9Replace this use of System.out or System.err by a logger.(°Ÿ÷a8½ß‡òç.
+V
+java:S3516L"9Refactor this method to not always return the same value.(§öéß8½ß‡òç.
+Q
+java:S37405"/Provide the parametrized type for this generic.(í“­îýÿÿÿÿ8˜£¢Ýç.
+[
+java:S1155N">Use isEmpty() to check whether the collection is empty or not.(³¾¤¯8¸ê„òç.
+d
+java:S2259N"GA "NullPointerException" could be thrown; "instances" is nullable here.(³¾¤¯8·ò‚òç.

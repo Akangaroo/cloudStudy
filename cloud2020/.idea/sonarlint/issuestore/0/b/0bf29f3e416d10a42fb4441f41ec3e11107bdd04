@@ -1,0 +1,15 @@
+
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰®²8ó‡¡öç.
+j	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¥˜÷8ó‡¡öç.
+]	java:S125""<This block of commented-out lines of code should be removed.(–æ˜şÿÿÿÿ8ğÆÜöç.
+K
+java:S1172,")Remove this unused method parameter "id".(ÌÙæªşÿÿÿÿ8ÚÂÓöç.
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(åÌ¼ı8ó‡¡öç.
+{
+java:S1488("^Immediately return this expression instead of assigning it to the temporary variable "result".(ú´ÀŞ8ó‡¡öç.
+[
+java:S34002"9Remove this method and declare a constant for this value.(ğœÖãøÿÿÿÿ8ˆŞÙöç.
+U
+java:S3400-"9Remove this method and declare a constant for this value.(öß8ÚÂÓöç.
+i	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õıº`8ˆŞÙöç.

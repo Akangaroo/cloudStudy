@@ -17,11 +17,11 @@ public class GateWayConfig {
     public RouteLocator customRouteLocator(RouteLocatorBuilder routeLocatorBuilder){
         RouteLocatorBuilder.Builder routes = routeLocatorBuilder.routes();
 
-        routes.route("path_route_angenin",  //id
+        routes.route("path_route_guonei",  //id
                 r -> r.path("/guonei")  //访问 http://localhost:9527/guonei
                         .uri("http://news.baidu.com/guonei"));  //就会转发到 http://news.baidu.com/guonei
 
-        routes.route("path_route_angenin2",  //id
+        routes.route("path_route_guoji",  //id
                 r -> r.path("/guoji")  //访问 http://localhost:9527/guoji
                         .uri("http://news.baidu.com/guoji"));  //就会转发到 http://news.baidu.com/guonji
 

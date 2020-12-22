@@ -125,3 +125,5 @@ Scloud-config-client-3355/src/main/java/cn/edu/springcloud/ConfigClientMain3355.
 Scloud-config-center-3344/src/main/java/cn/edu/springcloud/ConfigCenterMain3344.java,a\d\ad0a6cacda561990adc1e09551b99cfe50bf9000
 É
 Scloud-config-client-3366/src/main/java/cn/edu/springcloud/ConfigClientMain3366.java,7\2\72d3ddd1e5fd94c60e7ea9e972d37d69fbd78766
+è
+_cloud-consumer-hystrix-dashboard9001/src/main/java/cn/edu/springcloud/HystrixDashboard9001.java,1\7\17b65efc5ef1893f5a95f4de35a0dac0dc506221

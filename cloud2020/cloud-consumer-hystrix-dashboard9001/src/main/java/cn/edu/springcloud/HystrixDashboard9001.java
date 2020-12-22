@@ -1,4 +1,4 @@
-package cn.edu;
+package cn.edu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -19,9 +19,9 @@ import java.time.LocalDateTime;
 @Component
 @Slf4j
 public class MyLogGateWayFilter implements GlobalFilter, Ordered {
+
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-        log.info("**************come in MyLogGateWayFilter：" + LocalDateTime.now());
         //获取request中的uname参数
         String uname = exchange.getRequest().getQueryParams().getFirst("uname");
 

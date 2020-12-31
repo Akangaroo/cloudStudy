@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: cloud-order-service
+#  zipkin:
+#    base-url: http://localhost:9411
+#    sleuth:
+#      sampler:
+#        probability: 1  #采样率值介于0到1之间，1则表示全部采集（一般为0.5就够了）
 
 eureka:
   client:
@@ -17,3 +22,7 @@ eureka:
   instance:
     instance-id: order   #修改显示的主机名
     prefer-ip-address: true   #访问路径可以显示ip地址
+
+
+#my-url: http://CLOUD-GATEWAY
+my-url: http://CLOUD-PAYMENT-SERVICE

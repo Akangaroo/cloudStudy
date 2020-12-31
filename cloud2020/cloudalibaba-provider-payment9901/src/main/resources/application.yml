@@ -1,0 +1,16 @@
+server:
+  port: 9901
+
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 118.178.141.179:8845
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

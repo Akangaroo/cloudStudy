@@ -9,9 +9,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Akangaroo/springcloud-config.git  #git的仓库地址
+          uri: https://github.com/Akangaroo/cn.edu.springcloud-config.git  #git的仓库地址
           search-paths:   #搜索目录
-            - springcloud-config
+            - cn.edu.springcloud-config
       label: master   #读取的分支
   rabbitmq:
     host: 118.178.141.179  #本机写localhost，服务器的写服务器地址

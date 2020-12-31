@@ -35,9 +35,12 @@ spring:
             - Path=/payment/lb/** #断言,路径相匹配的进行路由
 #            - After=2020-12-20T15:55:37.713+08:00[Asia/Shanghai]
 #            - Before=2020-12-20T16:55:37.713+08:00[Asia/Shanghai]
-#            - Cookie=username,kyw   #带Cookie，并且username的值为kyw
-#            - Header=X-Request-Id, \d+   #请求头要有 X-Request-Id属性并且值为整数的正则表达式
-
+#            - Between=2020-12-20T15:55:37.713+08:00[Asia/Shanghai],2020-12-20T16:55:37.713+08:00[Asia/Shanghai]
+#            - Cookie=username,kyw   # 带Cookie，并且username的值为kyw
+#            - Header=X-Request-Id, \d+   # 请求头要有 X-Request-Id属性并且值为整数的正则表达式
+#            - Host=**.akangaroo.cn # Host要带**.akangaroo.cn
+#            - Method=GET
+#            - Query=username, \d+ # 传入的参数为username且带的值为数字
 eureka:
   instance:
     hostname: cloud-gateway-service

@@ -1,0 +1,21 @@
+server:
+  port: 3377
+
+# 之所以需要配置 spring.application.name ，是因为它是构成 Nacos 配置管理 dataId字段的一部分。
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 118.178.141.179:8848 #Nacos服务注册中心地址（本机的写localhost）
+      config:
+        server-addr: 118.178.141.179:8848 #Nacos作为配置中心地址（本机的写localhost）
+        file-extension: yaml #指定yml格式配置
+        group: DEV_GROUP
+        namespace: 7018e001-d0cf-4334-a85c-c82750bac79e
+
+
+# ${prefix}-${spring.profiles.active}.${file-extension}
+# prefix 默认为 spring.application.name 的值
+# nacos-config-client-dev.yaml

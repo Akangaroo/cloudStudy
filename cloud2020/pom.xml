@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>cn.edu.springcloud</groupId>
+  <groupId>cn.akangaroo.springcloud</groupId>
   <artifactId>cloud2020</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -26,6 +26,13 @@
     <module>cloud-config-center-3344</module>
       <module>cloud-config-client-3355</module>
       <module>cloud-config-client-3366</module>
+    <module>cloud-stream-rabbitmq-provider8801</module>
+    <module>cloud-stream-rabbitmq-consumer8802</module>
+    <module>cloud-stream-rabbitmq-consumer8803</module>
+    <module>cloudalibaba-provider-payment9901</module>
+    <module>cloudalibaba-provider-payment9902</module>
+      <module>cloudalibaba-consumer-nacos-order83</module>
+    <module>cloudalibaba-config-nacos-client3377</module>
   </modules>
 
 

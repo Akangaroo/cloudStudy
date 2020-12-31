@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>cloud2020</artifactId>
-        <groupId>cn.edu.springcloud</groupId>
+        <groupId>cn.akangaroo.springcloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,6 +13,11 @@
 
 
     <dependencies>
+        <!--包含了sleuth和zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!-- eureka-client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -20,7 +25,7 @@
         </dependency>
         <!-- 引用自己定义的api通用包，可以使用Payment支付Entity -->
         <dependency>
-            <groupId>cn.edu.springcloud</groupId>
+            <groupId>cn.akangaroo.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
